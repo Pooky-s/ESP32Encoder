@@ -2,7 +2,7 @@
 #include <Arduino.h>
 #include <driver/gpio.h>
 #include <driver/pcnt.h>
-#define MAX_ESP32_ENCODERS PCNT_UNIT_MAX
+#define MAX_ESP32_ENCODERS PCNT_UNIT_MAX+4
 #define 	_INT16_MAX 32766
 #define  	_INT16_MIN -32766
 
